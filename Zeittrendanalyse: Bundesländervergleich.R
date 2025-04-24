@@ -1,17 +1,14 @@
-# Zeittrendanalyse - Durchschnittliche Zufriedenheit mit Wiedervereinigung --------
-
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
+# Zeittrendanalyse - Durchschnittliche Zufriedenheit mit Wiedervereinigung (Bundesländervergleich) --------
 
 # Laden relevanter Packages -----------------------------------------------
-library(haven) # Einlesen des ALLBUS
-library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
-library(sf) # Erstellung von Maps
-library(rnaturalearth) # Laden der Map-Daten
+library(haven)             # Einlesen des ALLBUS
+library(tidyverse)         # Data-Cleaning, Pipes und Visualisierung
+library(sf)                # Umgang mit Simple Features
+library(rnaturalearth)     # Laden der Map-Daten
 library(rnaturalearthdata) # Daten für Maps
-library(ggspatial) # coord_sf-Funktion zur Richtung der Karte
-library(patchwork) # Zusammenfügen mehrerer ggplot-Objekte
+library(ggspatial)         # coord_sf-Funktion zur Richtung der Karte
+library(patchwork)         # Zusammenfügen mehrerer ggplot-Objekte
+
 
 # Einlesen der Datensätze ------------------------------------------------
 
@@ -56,10 +53,8 @@ df <- allbus %>%
 return(df)
 }
     
-
-
 # Anwendung der allbus_manipulation-Funktion auf die Datensätze zu den
-# verschiedenen Jahren -----------
+# möglichen Jahren -----------
 
 df_2023 = allbus_manipulation(allbus = allbus) %>% 
   mutate(Jahr = 2023)
@@ -76,18 +71,14 @@ df_1991 = allbus_manipulation(allbus = allbus_kumulation %>%
                                 filter(year == 1991))%>% 
                                 mutate(Jahr = 1991)
 
-
-
 # Zusammenfassung aller Datensätze zu einem Datensatz: df_zeittrend ------------------------------------------------------------
 
 df_zeittrend = bind_rows(df_2023, df_2018, df_2010, df_2006, df_1991)
-
 
 # Akquise der Geo-Daten der Bundesländer  ---------------------------------------------
 
 df_bundesl <- ne_states(country = "Germany", returnclass = "sf") %>% 
   rename(Bundesland = name)
-
 
 # Mergen beider Datensätze ------------------------------------------------
 
@@ -95,6 +86,8 @@ map_df = left_join(df_zeittrend, df_bundesl, by = "Bundesland")
 
 
 # Funktion zur Erstellung der Map ------------------------------------------------------
+# Zahlen werden zentriert gepastet (außer für Brandenburg, Saarland, Niedersachsen und RP)
+# zur Vermeidung von Überlappungen
 
 map_erstellen <- function(year) {
   map_df %>%
@@ -140,7 +133,6 @@ map_erstellen <- function(year) {
 }
 
 
-
 # Erstellung der Maps für die jeweiligen Jahre ----------------------------
 
 map_1991 <- map_erstellen(1991)
@@ -148,8 +140,6 @@ map_2006 <- map_erstellen(2006)
 map_2010 <- map_erstellen(2010)
 map_2018 <- map_erstellen(2018)
 map_2023 <- map_erstellen(2023)
-
-
 
 # Kombination der Maps zu einer Darstellung -------------------------------
 
@@ -161,8 +151,6 @@ map_2023 <- map_erstellen(2023)
                                                           face = "bold",
                                                           family = "serif")))+
   plot_layout(guides = "collect")
-
-
 
 # Auflistung der verwendeten Packages -------------------------------------
 
