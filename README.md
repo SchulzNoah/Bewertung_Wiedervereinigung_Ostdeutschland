@@ -15,9 +15,7 @@ Dieses Repository enthält sämtliche R-Skripte zu meiner Publikation. Die Analy
 
 Die Vollversion des **ALLBUS 2023 (ZA8830)** Datensatzes befindet sich nicht im `Data/`-Ordner, sondern es wurde lediglich der **ALLBUScompact 2023 (ZA8831)** beigefügt. Die Vollversion des Datensatzes darf aus datenschutzrechtlichen Gründen nicht geteilt werden.
 
-Die **Vollversion des ALLBUS2023** und Informationen über die abgefragten Variablen können jedoch unter folgendem Link bei GESIS heruntergeladen werden, nachdem ein Datennutzungsvertrag ausgefüllt wurde.
-
-[ALLBUS 2023 (ZA8830)](https://search.gesis.org/research_data/ZA8830)
+Die **Vollversion des ALLBUS2023** und Informationen über die abgefragten Variablen können jedoch unter folgendem Link bei GESIS heruntergeladen werden:[ALLBUS 2023 (ZA8830)](https://search.gesis.org/research_data/ZA8830)
 
 Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind [hier](https://search.gesis.org/research_data/ZA5284) zufinden.
 
