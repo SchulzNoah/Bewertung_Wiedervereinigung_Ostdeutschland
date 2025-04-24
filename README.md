@@ -50,8 +50,9 @@ Leidenschaftlicher R-Nutzer & Quantitativer Sozialforscher
 
 ## 📚 Zitation
 
-Eine mögliche Zitationen meiner Publikation lautet:
+Die vollständige Publikation ist hier zu finden.
 
+Eine mögliche Zitationen meiner Publikation lautet:
 > Schulz, Noah (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. [LINK].
 
 ---
@@ -60,7 +61,7 @@ Eine mögliche Zitationen meiner Publikation lautet:
 
 Bei Fragen, Anregungen oder Interesse an einer Vernetzung:
 
-# LinkedIn-Profil: [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
+**LinkedIn-Profil:** [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
 **E-Mail** 📧 *noah.schulz@stud.uni-due.de* oder *Noah.Schulz@edu.ruhr-uni-bochum.de*
 
