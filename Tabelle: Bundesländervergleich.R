@@ -1,22 +1,19 @@
-# Zeittrendanalyse (Bundesländervergleich) - Tabelle --------
-
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
+# Tabelle: Bundesländervergleich (Zeittrend) --------
 
 # Laden relevanter Packages -----------------------------------------------
-library(haven) # Einlesen des ALLBUS
+
+library(haven)     # Einlesen des ALLBUS
 library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
-library(gt) # Tabellenerstellung
-library(gtExtras) # Verfeinerungen von Tabellen
+library(gt)        # Tabellenerstellung
+library(gtExtras)  # Verfeinerungen von Tabellen
 
 # Einlesen der Datensätze ------------------------------------------------
 
 allbus = read_dta("allbus2023.dta")
 allbus_kumulation = read_dta("allbus_kumulation.dta")
 
-
 # Funktion zur Datenmanipulation (Durchschnittliche Bewertung pro Bundesland)-------------------------------------------------------
+
 allbus_manipulation <- function(allbus) {
   df <- allbus %>% 
     filter(dg10 %in% c(1:17)) %>% 
@@ -57,6 +54,7 @@ allbus_manipulation <- function(allbus) {
 }
 
 # Anwendung der allbus_manipulation-Funktion auf die Datensätze zu den verschiedenen Jahren -----------
+
 df_2023 = allbus_manipulation(allbus = allbus) %>% 
   mutate(Jahr = 2023)
 df_2018 = allbus_manipulation(allbus = allbus_kumulation %>% 
@@ -72,11 +70,13 @@ df_1991 = allbus_manipulation(allbus = allbus_kumulation %>%
                                 filter(year == 1991)) %>% 
   mutate(Jahr = 1991)
 
+
 # Zusammenfassung aller Datensätze zu einem Datensatz: df_zeittrend ------------------------------------------------------------
+
 df_zeittrend = bind_rows(df_2023, df_2018, df_2010, df_2006, df_1991)
 
-
 # Erstellen der Tabelle mit gt ----------------------------------------------------
+
 df_zeittrend %>%
   group_by(Bundesland, Jahr) %>%
   summarise(Mittelwert,
