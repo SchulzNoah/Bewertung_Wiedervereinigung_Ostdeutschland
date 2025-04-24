@@ -7,7 +7,7 @@ Dieses Repository enthält sämtliche R-Skripte zu meiner Publikation. Die Analy
 ## 📂 Projektstruktur
 
 ```
-├── R-Code/         # Alle R-Skripte (für die Längsschnitt- und Querschnitt-Analysen)
+├── R-Code/         # Alle R-Skripte (für die Längsschnitt- und Querschnitts-Analysen)
 ├── Data/           # Enthält die beiden verwendeten ALLBUS-Datensätze (im dta-Format)
 ```
 
@@ -58,10 +58,10 @@ Leidenschaftlicher R-Nutzer & Quantitativer Sozialforscher
 
 ## 📚 Zitation
 
-Die vollständige Publikation ist hier zu finden.
+Die vollständige Publikation ist [hier](www.google.de) zu finden.
 
 Eine mögliche Zitationen meiner Publikation lautet:
-> Schulz, Noah (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. [LINK].
+> Schulz, Noah (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. [Link](www.google.de).
 
 ---
 
