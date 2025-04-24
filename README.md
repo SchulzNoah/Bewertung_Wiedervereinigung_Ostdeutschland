@@ -23,7 +23,7 @@ Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind
 
 ## 📦 Verwendete R-Packages
 
-Bitte stellen Sie sicher, dass die folgenden R-Packages bereits installiert sind:
+Hier sind alle R-Packages (inkl.) Entwicklerinnen und Entwickler aufgelistet, die für die multivariaten Analysen verwendet wurden:
 
 ```r
 install.packages("haven")
