@@ -25,27 +25,27 @@ Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind
 
 Hier sind alle R-Packages (inkl.) Entwicklerinnen und Entwickler aufgelistet, die für die multivariaten Analysen verwendet wurden:
 
-```r
-install.packages("haven")
-install.packages("tidyverse")
-install.packages("gt")
-install.packages("gtExtras")
-install.packages("scales")
-install.packages("stargazer")
-install.packages("jtools")
-install.packages("performance")
-install.packages("lmtest")
-install.packages("sandwich")
-install.packages("see")
-install.packages("car")
-install.packages("sjPlot")
-install.packages("writexl")
-install.packages("sf")
-install.packages("rnaturalearth")
-install.packages("rnaturalearthdata")
-install.packages("ggspatial")
-install.packages("patchwork")
-```
+| R-Package             | Entwicklerinnen und Entwickler             |
+|------------------------|-------------------------------------------|
+| `haven`                | Wickham et al. 2023a                      |
+| `tidyverse`            | Wickham et al. 2019                       |
+| `gt`                   | Iannone et al. 2024                       |
+| `gtExtras`             | Mock 2023                                 |
+| `scales`               | Wickham et al. 2023b                      |
+| `stargazer`            | Hlavac 2022                               |
+| `jtools`               | Long 2022                                 |
+| `performance`          | Lüdecke et al. 2021a                      |
+| `lmtest`               | Hothorn & Zeileis 2002                    |
+| `sandwich`             | Zeileis et al. 2020                       |
+| `see`                  | Lüdecke et al. 2021b                      |
+| `car`                  | Fox & Weisberg 2019                       |
+| `sjPlot`               | Lüdecke 2023                              |
+| `writexl`              | Ooms 2024                                 |
+| `sf`                   | Pebesma & Bivand 2023                     |
+| `rnaturalearth`        | Masicotte & South 2023                    |
+| `rnaturalearthdata`    | South et al. 2024                         |
+| `ggspatial`            | Dunnington 2023                           |
+| `patchwork`            | Pedersen 2024                             |
 
 ---
 
