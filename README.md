@@ -60,7 +60,7 @@ Eine mögliche Zitationen meiner Publikation lautet:
 
 Bei Fragen, Anregungen oder Interesse an einer Vernetzung:
 
-[![LinkedIn Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png)](https://www.linkedin.com/in/noah-schulz-971031301/)  [LinkedIn Profil](https://www.linkedin.com/in/noah-schulz-971031301/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
 📧 *noah.schulz@stud.uni-due.de* oder *Noah.Schulz@edu.ruhr-uni-bochum.de*
 
