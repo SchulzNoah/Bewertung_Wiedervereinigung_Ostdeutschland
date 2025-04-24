@@ -1,27 +1,20 @@
-# Zeittrendanalyse - Ost-West-Vergleich (Durchschnittliche Zufriedenheit) --------
-
-
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
+# Mittelwertvergleich: Ost-West-Berlin (Zeittrend) --------
 
 # Laden relevanter Packages -----------------------------------------------
-library(haven) # Einlesen des ALLBUS
-library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
-library(scales) # Formatierung der p-Werte
 
+library(haven)     # Einlesen des ALLBUS
+library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
+library(scales)    # Formatierung der p-Werte
 
 # Einlesen der Datensätze ------------------------------------------------
 
 allbus = read_dta("allbus2023.dta")
 allbus_kumulation = read_dta("allbus_kumulation.dta")
 
-
 # Datenmanipulation -------------------------------------------------------
-
-
 # Funktion zur Berechnung der Mittelwerte (inkl. Konfidenzintervalle + p-Werte)
 # pro Jahr und Landesteil
+
 
 allbus_manipulation <- function(allbus) {
   df <- allbus %>%
@@ -44,7 +37,7 @@ allbus_manipulation <- function(allbus) {
               ci_grenze_oben = mean_wdrvrg + qt(0.975, df = n - 1) * se_wdrvrg,
               .groups = 'drop')
   
-# Berechnung der t-Tests zwischen den Gruppen (Alte vs. Neue Bundesländer) für 
+# Berechnung der t-Tests zwischen den Gruppen (Ost- und West-Berlin) für 
 # jedes Jahr
   
   t_tests <- allbus %>%
@@ -74,9 +67,7 @@ allbus_manipulation <- function(allbus) {
 }
 
 
-
 # Anwendung der Funktion für jedes Jahr, in dem Items pr05 und dg10 abgefragt wurden------
-
 
 df_2023 <- allbus_manipulation(allbus = allbus %>% mutate(Jahr = 2023))
 df_2018 <- allbus_manipulation(allbus = allbus_kumulation %>%
@@ -92,15 +83,11 @@ df_1991 <- allbus_manipulation(allbus = allbus_kumulation %>%
                                  filter(year == 1991) %>% 
                                  mutate(Jahr = 1991))
 
-
-
-# Zusammenfügen der Dataframes zu Zeittrend-Dataframe ---------------------
+# Zusammenfügen der Dataframes zu df_zeittrend ---------------------
 
 df_zeittrend <- bind_rows(df_2023, df_2018, df_2010, df_2006, df_1991)
 
-
 # Erstellung der Visualisierung -------------------------------------------
-
 
 df_zeittrend %>% 
   ggplot(aes(x = eastwest_berlin,
@@ -148,8 +135,6 @@ df_zeittrend %>%
         legend.box.background = element_rect(colour = "black", linewidth = 0.5),
         legend.background = element_blank())+
   facet_wrap(~ Jahr)
-
-
 
 # Auflistung der verwendeten Packages -------------------------------------
 
