@@ -49,7 +49,7 @@ Hier sind alle R-Packages (inkl.) Entwicklerinnen und Entwickler aufgelistet, di
 
 ---
 
-## ✍️ Autor
+## Autor
 
 **Noah Schulz**  
 Leidenschaftlicher R-Nutzer & Quantitativer Sozialforscher
