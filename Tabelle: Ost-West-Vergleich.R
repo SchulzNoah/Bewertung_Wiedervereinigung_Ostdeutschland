@@ -1,14 +1,11 @@
 # Tabelle: Zeittrendanalyse (Ost-West-Vergleich) --------------------------
 
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
-
 # Laden relevanter Packages -----------------------------------------------
-library(haven) # Einlesen des ALLBUS
+
+library(haven)     # Einlesen des ALLBUS
 library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
-library(gt) # Erstellung von Tabellen
-library(gtExtras) # Verfeinerungen von Tabellen
+library(gt)        # Erstellung von Tabellen
+library(gtExtras)  # Verfeinerungen von Tabellen
 
 # Einlesen der Datensätze ------------------------------------------------
 
@@ -18,7 +15,7 @@ allbus_kumulation = read_dta("allbus_kumulation.dta")
 
 # Datenmanipulation -------------------------------------------------------
 
-# Funktion zur Berechnung der Mittelwerte (inkl. Konfidenzintervalle9
+# Funktion zur Berechnung der Mittelwerte (inkl. Konfidenzintervalle)
 # pro Jahr und Landesteil
 
 allbus_manipulation <- function(allbus) {
@@ -43,7 +40,6 @@ allbus_manipulation <- function(allbus) {
 
 return(df)
 }
-
 
 # Anwendung der Funktion auf jedes verfügbare Jahr ------------------------
 
@@ -79,6 +75,8 @@ df_zeittrend <- bind_rows(df_2023, df_2018, df_2010, df_2006,
                           df_2000, df_1998,
                           df_1994, df_1992, df_1991)
 
+
+# Erstellung der Tabelle -------------------------------------
 
 df_zeittrend %>%
   group_by(eastwest, Jahr) %>%
