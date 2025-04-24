@@ -1,10 +1,5 @@
 # Zeittrendanalyse - Ost-West-Vergleich (Durchschnittliche Zufriedenheit) --------
 
-
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
-
 # Laden relevanter Packages -----------------------------------------------
 library(haven) # Einlesen des ALLBUS
 library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
