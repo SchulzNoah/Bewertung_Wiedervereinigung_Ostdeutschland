@@ -11,13 +11,22 @@ Dieses Repository enthält sämtliche R-Skripte zur gleichnamigen Publikation. D
 ├── Data/           # Enthält die beiden verwendeten ALLBUS-Datensätze (im dta-Format)
 ```
 
+
+
+
+
+
+
+
+
+
 ## Hinweis zur Datennutzung
 
-Die Vollversion des **ALLBUS 2023 (ZA8830)** Datensatzes befindet sich nicht im `Data/`-Ordner, sondern es wurde lediglich die **ALLBUS Compact-Version** beigefügt. Die Vollversion des Datensatzes darf aus datenschutzrechtlichen Gründen nicht geteilt werden.
+Die Vollversion des **ALLBUS 2023 (ZA8830)** Datensatzes befindet sich nicht im `Data/`-Ordner, sondern es wurde lediglich der **ALLBUScompact 2023 (ZA8831)** beigefügt. Die Vollversion des Datensatzes darf aus datenschutzrechtlichen Gründen nicht geteilt werden.
 
-Die **Vollversion des Datensatzes** kann jedoch unter folgendem Link heruntergeladen werden, nachdem ein Datennutzungsvertrag ausgefüllt wurde:
+Die **Vollversion des ALLBUS2023** kann jedoch unter folgendem Link bei GESIS heruntergeladen werden, nachdem ein Datennutzungsvertrag ausgefüllt wurde:
 
-[ALLBUS 2023 (ZA8830) Vollversion herunterladen](https://search.gesis.org/research_data/ZA8830)
+[ALLBUS 2023 (ZA8830)](https://search.gesis.org/research_data/ZA8830)
 
 ---
 
