@@ -49,13 +49,6 @@ Hier sind alle R-Packages (inkl.) Entwicklerinnen und Entwickler aufgelistet, di
 
 ---
 
-## Autor
-
-**Noah Schulz**  
-Leidenschaftlicher R-Nutzer & Quantitativer Sozialforscher
-
----
-
 ## 📚 Zitation
 
 Die vollständige Publikation ist [hier](www.google.de) zu finden.
@@ -68,6 +61,9 @@ Eine mögliche Zitationen meiner Publikation lautet:
 ## 📬 Kontakt
 
 Bei Fragen, Anregungen oder Interesse an einer Vernetzung:
+
+**Noah Schulz**  
+Leidenschaftlicher R-Nutzer & Quantitativer Sozialforscher
 
 **LinkedIn-Profil:** [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
