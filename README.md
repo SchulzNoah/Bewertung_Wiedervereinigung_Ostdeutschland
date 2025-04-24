@@ -60,8 +60,6 @@ Eine mögliche Zitationen meiner Publikation lautet:
 
 ## 📬 Kontakt
 
-Bei Fragen, Anregungen oder Interesse an einer Vernetzung:
-
 **Noah Schulz**  
 B.A. Politikwissenschaft | R-User | Quantitativer Sozialforscher
 
