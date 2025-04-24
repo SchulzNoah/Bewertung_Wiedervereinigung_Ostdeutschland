@@ -62,8 +62,7 @@ Bei Fragen, Anregungen oder Interesse an einer Vernetzung:
 
 # LinkedIn-Profil: [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
-# E-Mail
-📧 *noah.schulz@stud.uni-due.de* oder *Noah.Schulz@edu.ruhr-uni-bochum.de*
+# E-Mail: 📧 *noah.schulz@stud.uni-due.de* oder *Noah.Schulz@edu.ruhr-uni-bochum.de*
 
 
 
