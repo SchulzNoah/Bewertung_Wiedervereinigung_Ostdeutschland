@@ -1,4 +1,4 @@
-# 📊 Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten
+# Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten
 
 Dieses Repository enthält sämtliche R-Skripte zur Publikation: *"Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten"*. 
 Das Paper eruiert die Einflussfaktoren und Zeittrends der Bewertung der Wiedervereinigung in Ostdeutschland mittels OLS-Regression und Längsschnittanalysen. Grundlage der Analysen sind Umfragedaten aus dem **ALLBUS (Allgemeine Bevölkerungsumfrage der Sozialwissenschaften)**, konkret aus der **ALLBUS-Kumulation 1980–2021 (ZA5284)** sowie dem **ALLBUS 2023 (ZA8830)**.
