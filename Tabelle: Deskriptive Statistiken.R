@@ -1,14 +1,10 @@
-# Erstellung der Tabelle mit deskriptiven Statistiken ---------------------
-
-
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
+#  Tabelle mit deskriptiven Statistiken ---------------------
 
 # Laden der relevanten Packages -------------------------------------------
-library(haven) # Einlesen des Datensatzes
-library(tidyverse) # Data Cleaning, Pipes
-library(writexl) # Speichern des Dataframes in Excel-Datei
 
+library(haven)     # Einlesen des Datensatzes
+library(tidyverse) # Data Cleaning, Pipes
+library(writexl)   # Speichern des Dataframes in Excel-Datei
 
 # Einlesen des Datensatzes ------------------------------------------------
 
@@ -89,8 +85,6 @@ df_ost = allbus %>%
          "Verbundenheit mit Bundesland", "Verbundenheit mit Gemeinde",
          "Wahl der AfD", "Gefühl des gerechten Anteils")
 
-
-
 # Funktion der Berechnung der wichtigen deskriptiven Statistiken --------------------
 
 desk_statistik <- function(variable) {
@@ -105,19 +99,17 @@ desk_statistik <- function(variable) {
     "n" = n))
 }
 
-
 # Anwendung der Funktion zur Berechnung der deskriptiven Statistik auf df_ost
 df <- sapply(df_ost, desk_statistik)
 
 # Speichern als Dataframe
 df <- as.data.frame(t(df))
+
 # Hinzufügen der Variablennamen
 df <- cbind(Variable = names(df_ost), df)
 
-
-# Speichern des Dataframes in Excel-Datei
+# Speichern des Dataframes in Excel-Datei (für die weitere Bearbeitung)
 write_xlsx(df, "Tabelle - Deskriptive Statistik.xlsx")
-
 
 # Auflistung der verwendeten Packages -------------------------------------
 
