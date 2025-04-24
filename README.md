@@ -17,7 +17,7 @@ Die Vollversion des **ALLBUS 2023 (ZA8830)** Datensatzes befindet sich nicht im 
 
 Die **Vollversion des ALLBUS2023** und Informationen über die abgefragten Variablen können jedoch unter folgendem Link bei GESIS heruntergeladen werden: [ALLBUS 2023 (ZA8830)](https://search.gesis.org/research_data/ZA8830)
 
-Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind [hier](https://search.gesis.org/research_data/ZA5284) zufinden.
+Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind [hier](https://search.gesis.org/research_data/ZA5284) zu finden.
 
 ---
 
