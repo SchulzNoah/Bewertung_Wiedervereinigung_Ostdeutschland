@@ -1,17 +1,13 @@
 # Zeittrendanalyse - Ost-West-Vergleich  --------
 
-# Setzen des Working Directories ------------------------------------------
-setwd("C:/Users/Noah/Desktop/Bachelorarbeit")
-
 # Laden relevanter Packages -----------------------------------------------
-library(haven) # Einlesen des ALLBUS
+library(haven)     # Einlesen des ALLBUS
 library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
 
 # Einlesen der Datensätze ------------------------------------------------
 
 allbus = read_dta("allbus2023.dta")
 allbus_kumulation = read_dta("allbus_kumulation.dta")
-
 
 # Datenmanipulation -------------------------------------------------------
 
@@ -40,7 +36,6 @@ allbus_manipulation <- function(allbus) {
   
   return(df)
 }
-
 
 
 # Anwendung der Funktion auf jedes verfügbare Jahr ------------------------
@@ -79,7 +74,6 @@ df_zeittrend <- bind_rows(df_2023, df_2018, df_2010, df_2006,
 
 
 # Erstellung der Visualisierung -------------------------------------------
-
 
 df_zeittrend %>%
   ggplot(aes(x = Jahr, 
@@ -128,7 +122,6 @@ df_zeittrend %>%
         legend.title = element_text(size = 14, face = "bold"), 
         legend.box = "horizontal",
         legend.box.background = element_rect(color = "grey40", linewidth = 0.4))
-
 
 
 # Auflistung der verwendeten Packages --------------------------------------
