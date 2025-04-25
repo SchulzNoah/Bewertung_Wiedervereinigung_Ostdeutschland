@@ -9,7 +9,7 @@ Das Paper eruiert die Einflussfaktoren und Zeittrends der Bewertung der Wiederve
 ## 📂 Projektstruktur
 
 ```
-├── Codebooks/      # Codebücher mit allen Infos über Variablen, Items, Methodik des Surveys etc. 
+├── Codebooks/      # Codebücher mit allen Infos zu Variablen, Items, Methodik des Surveys etc. 
 ├── R-Code/         # Alle R-Skripte (für die Längsschnitt- und Querschnitts-Analysen)
 ├── Data/           # Enthält die beiden verwendeten ALLBUS-Datensätze (im dta-Format)
 ```
@@ -26,7 +26,7 @@ Weitere Infos zu den Variablen der **ALLBUS-Kumulation 1980-2021 (ZA5284)** sind
 
 ## 📦 Verwendete R-Packages
 
-Hier sind alle R-Packages (inkl.) Entwicklerinnen und Entwickler aufgelistet, die für die multivariaten Analysen verwendet wurden:
+Hier sind alle verwendeten R-Packages sowie die jeweiligen Entwicklerinnen und Entwickler aufgelistet:
 
 | R-Package             | Entwicklerinnen und Entwickler             |
 |------------------------|-------------------------------------------|
