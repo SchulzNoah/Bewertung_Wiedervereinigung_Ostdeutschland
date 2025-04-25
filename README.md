@@ -57,7 +57,7 @@ Hier sind alle verwendeten R-Packages sowie die jeweiligen Entwicklerinnen und E
 Die vollständige Publikation ist [hier](www.google.de) zu finden.
 
 Empfohlene Zitation der Publikation:
-> Schulz, Noah (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. Idealus: Schriftenreihe des Instituts für Politikwissenschaften der Universität Duisburg-Essen, Band 7. Duisburg: Universität Duisburg-Essen. [Link](www.google.de).
+> Schulz, N. (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. Idealus: Schriftenreihe des Instituts für Politikwissenschaften der Universität Duisburg-Essen (Bd. 7). Duisburg: Universität Duisburg-Essen. [Link](www.google.de).
 
 ---
 
