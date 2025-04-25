@@ -56,7 +56,7 @@ Hier sind alle verwendeten R-Packages sowie die jeweiligen Entwicklerinnen und E
 
 Die vollständige Publikation ist [hier](www.google.de) zu finden.
 
-Eine mögliche Zitationen meiner Publikation lautet:
+Empfohlene Zitation der Publikation:
 > Schulz, Noah (2025). *Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten*. [Link](www.google.de).
 
 ---
