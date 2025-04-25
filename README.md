@@ -64,7 +64,7 @@ Eine mögliche Zitationen meiner Publikation lautet:
 ## 📬 Kontakt
 
 **Noah Schulz (B.A.)**  
-R-User | Quantitativer Sozialforscher
+Quantitativer Sozialforscher
 
 **LinkedIn-Profil:** [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
