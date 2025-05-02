@@ -9,7 +9,7 @@ library(writexl)   # Speichern des Dataframes in Excel-Datei
 # Einlesen des Datensatzes ------------------------------------------------
 
 allbus = read_dta("allbus2023.dta")
-
+ 
 # Datenmanipulation -------------------------------------------------------
 
 df_ost = allbus %>%
