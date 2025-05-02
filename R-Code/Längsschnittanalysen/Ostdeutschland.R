@@ -1,6 +1,5 @@
 # Zeittrend-Analyse - Ostdeutschland --------------------------------------
 
-
 # Laden relevanter Packages -----------------------------------------------
 
 library(haven)     # Einlesen des ALLBUS
