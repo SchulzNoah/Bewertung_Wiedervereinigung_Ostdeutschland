@@ -1,6 +1,7 @@
 # Zeittrendanalyse - Durchschnittliche Zufriedenheit mit Wiedervereinigung (Bundesländervergleich) --------
 
 # Laden relevanter Packages -----------------------------------------------
+
 library(haven)             # Einlesen des ALLBUS
 library(tidyverse)         # Data-Cleaning, Pipes und Visualisierung
 library(sf)                # Umgang mit Simple Features
@@ -8,7 +9,6 @@ library(rnaturalearth)     # Laden der Map-Daten
 library(rnaturalearthdata) # Daten für Maps
 library(ggspatial)         # coord_sf-Funktion zur Richtung der Karte
 library(patchwork)         # Zusammenfügen mehrerer ggplot-Objekte
-
 
 # Einlesen der Datensätze ------------------------------------------------
 
