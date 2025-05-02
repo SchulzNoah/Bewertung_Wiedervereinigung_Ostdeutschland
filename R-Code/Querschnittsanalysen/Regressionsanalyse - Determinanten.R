@@ -15,7 +15,6 @@ library(gt)          # Erstellung der Tabellen
 library(gtExtras)    # Verfeinerungen der Tabellen
 library(sjPlot)      # Visualisierung der Interaktion
 
-
 # Einlesen des ALLBUS-Datensatzes ------------------------------------------------
 
 allbus = read_dta("allbus2023.dta")
