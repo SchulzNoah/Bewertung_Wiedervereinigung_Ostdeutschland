@@ -1,6 +1,7 @@
-# Zeittrendanalyse - Ost-West-Vergleich  --------
+# Zeittrendanalyse - Ost-West-Vergleich  --------------------------------
 
 # Laden relevanter Packages -----------------------------------------------
+
 library(haven)     # Einlesen des ALLBUS
 library(tidyverse) # Data-Cleaning, Pipes und Visualisierung
 
