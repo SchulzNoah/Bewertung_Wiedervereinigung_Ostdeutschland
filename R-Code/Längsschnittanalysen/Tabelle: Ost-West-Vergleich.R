@@ -12,7 +12,6 @@ library(gtExtras)  # Verfeinerungen von Tabellen
 allbus = read_dta("allbus2023.dta")
 allbus_kumulation = read_dta("allbus_kumulation.dta")
 
-
 # Datenmanipulation -------------------------------------------------------
 
 # Funktion zur Berechnung der Mittelwerte (inkl. Konfidenzintervalle)
