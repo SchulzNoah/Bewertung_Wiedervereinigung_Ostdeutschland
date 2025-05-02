@@ -15,7 +15,7 @@ allbus_kumulation = read_dta("allbus_kumulation.dta")
 # Funktion zur Berechnung der Mittelwerte (inkl. Konfidenzintervalle + p-Werte)
 # pro Jahr und Landesteil
 
-
+ 
 allbus_manipulation <- function(allbus) {
   df <- allbus %>%
     filter(dg10 %in% c(3,12)) %>%
