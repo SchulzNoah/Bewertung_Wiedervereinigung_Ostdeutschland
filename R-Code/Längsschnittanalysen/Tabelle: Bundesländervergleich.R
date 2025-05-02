@@ -13,7 +13,7 @@ allbus = read_dta("allbus2023.dta")
 allbus_kumulation = read_dta("allbus_kumulation.dta")
 
 # Funktion zur Datenmanipulation (Durchschnittliche Bewertung pro Bundesland)-------------------------------------------------------
-
+ 
 allbus_manipulation <- function(allbus) {
   df <- allbus %>% 
     filter(dg10 %in% c(1:17)) %>% 
