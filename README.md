@@ -52,7 +52,7 @@ Hier sind alle verwendeten R-Packages sowie die jeweiligen Entwicklerinnen und E
 Die vollständige Publikation ist [hier](https://duepublico2.uni-due.de/receive/duepublico_mods_00085348) zu finden.
 
 Empfohlene Zitation der Publikation:
-> Schulz, N., 2026. Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten. Idealus: Schriftenreihe des Instituts für Politikwissenschaften der Universität Duisburg-Essen. Universität Duisburg-Essen, Duisburg. https://doi.org/10.17185/duepublico/85348.
+> Schulz, N. (2026). Die Bewertung der Wiedervereinigung in Ostdeutschland: Eine empirische Analyse der Determinanten und zeitlichen Entwicklung auf Basis von ALLBUS-Daten (Vol. 7) [Universität Duisburg-Essen]. https://doi.org/10.17185/duepublico/85348
 
 ---
 
