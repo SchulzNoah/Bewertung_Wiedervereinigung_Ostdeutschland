@@ -60,6 +60,6 @@ Empfohlene Zitation der Publikation:
 
 **Noah Schulz (B.A.)**  
 
-**LinkedIn-Profil:** [<img src="https://de.wikipedia.org/wiki/Datei:LinkedIn_icon.svg" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
+**LinkedIn-Profil:** [<img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" width="30" />](https://www.linkedin.com/in/noah-schulz-971031301/)
 
 ---
